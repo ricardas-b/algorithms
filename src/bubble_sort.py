@@ -1,4 +1,5 @@
 def bubble_sort(elements):
+    ''' Sort in-place a sequence of numbers using bubble sort algorithm '''
 
     # After n-th iteration, n-th largest element is guaranteed to be in the
     # right place. So we can exclude that element from later iterations, having
@@ -24,4 +25,3 @@ def bubble_sort(elements):
         if not swapped:
             break
 
-    return elements
